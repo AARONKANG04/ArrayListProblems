@@ -35,7 +35,7 @@ public class ArrayList_Problems {
         }
     }
 
-    public static ArrayList<Integer> BigInts(ArrayList<Integer> a, ArrayList<Integer> b) {
+    public static ArrayList<Integer> AddBigInts(ArrayList<Integer> a, ArrayList<Integer> b) {
         ArrayList<Integer> sum = new ArrayList<Integer>();
         int temp = 0;
         int size = Math.max(a.size(), b.size());
